@@ -27,9 +27,41 @@ export const Hero: React.FC = () => {
       <div className="absolute top-1/3 right-10 w-[300px] h-[300px] bg-indigo-500/10 dark:bg-indigo-500/10 rounded-full blur-3xl pointer-events-none -z-10" />
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        {/* Status Badge */}
+        {/* Profile Avatar Frame */}
         <motion.div
           custom={0}
+          initial="hidden"
+          animate="visible"
+          variants={fadeInVariants}
+          className="mb-6 flex justify-center"
+        >
+          <div className="relative group">
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-brand-primary via-brand-cyan to-indigo-500 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-300 animate-tilt"></div>
+            <div className="relative w-36 h-36 sm:w-44 sm:h-44 rounded-full overflow-hidden border-4 border-white dark:border-brand-cardDark bg-slate-900 flex items-center justify-center shadow-2xl">
+              <img
+                src={personalDetails.avatarUrl || '/profile.jpg'}
+                alt={personalDetails.name}
+                className="w-full h-full object-cover object-[center_15%]"
+                onError={(e) => {
+                  // Fallback if profile image file is not yet dropped in public/
+                  e.currentTarget.style.display = 'none';
+                  if (e.currentTarget.parentElement) {
+                    const fallbackEl = e.currentTarget.parentElement.querySelector('.avatar-fallback');
+                    if (fallbackEl) fallbackEl.classList.remove('hidden');
+                  }
+                }}
+              />
+              <div className="avatar-fallback hidden w-full h-full bg-slate-900 flex flex-col items-center justify-center font-mono text-brand-cyan">
+                <span className="font-extrabold text-2xl">SMS</span>
+                <span className="text-[9px] text-slate-400">CompEng</span>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Status Badge */}
+        <motion.div
+          custom={0.5}
           initial="hidden"
           animate="visible"
           variants={fadeInVariants}

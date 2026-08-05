@@ -66,27 +66,27 @@ export const About: React.FC = () => {
             {/* Quick Metrics / Key Strengths */}
             <div className="mt-8 pt-6 border-t border-slate-100 dark:border-slate-800 grid grid-cols-3 gap-4 text-center">
               <div>
-                <span className="block font-mono font-bold text-xl sm:text-2xl text-brand-primary dark:text-brand-cyan">
-                  CE
+                <span className="block font-mono font-bold text-base sm:text-lg text-brand-primary dark:text-brand-cyan">
+                  B.Sc.Eng. (Hons)
                 </span>
-                <span className="text-xs text-slate-500 dark:text-slate-400 font-sans">
-                  Degree Major
+                <span className="text-[11px] sm:text-xs text-slate-500 dark:text-slate-400 font-sans">
+                  Computer Engineering
                 </span>
               </div>
               <div>
-                <span className="block font-mono font-bold text-xl sm:text-2xl text-slate-900 dark:text-slate-100">
+                <span className="block font-mono font-bold text-base sm:text-lg text-slate-900 dark:text-slate-100">
                   {personalDetails.expectedGraduation}
                 </span>
-                <span className="text-xs text-slate-500 dark:text-slate-400 font-sans">
-                  Graduation
+                <span className="text-[11px] sm:text-xs text-slate-500 dark:text-slate-400 font-sans">
+                  Expected Grad
                 </span>
               </div>
               <div>
-                <span className="block font-mono font-bold text-xl sm:text-2xl text-emerald-600 dark:text-emerald-400">
-                  C++ / TS
+                <span className="block font-mono font-bold text-base sm:text-lg text-emerald-600 dark:text-emerald-400">
+                  3.4 / 4.0
                 </span>
-                <span className="text-xs text-slate-500 dark:text-slate-400 font-sans">
-                  Primary Stack
+                <span className="text-[11px] sm:text-xs text-slate-500 dark:text-slate-400 font-sans">
+                  Cumulative GPA
                 </span>
               </div>
             </div>

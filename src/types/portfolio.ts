@@ -13,6 +13,7 @@ export interface PersonalDetails {
   location: string;
   tagline: string;
   shortBio: string; // Under 180 words
+  avatarUrl?: string;
   resumeUrl: string;
   resumeLastUpdated: string;
   specializedResumes?: {

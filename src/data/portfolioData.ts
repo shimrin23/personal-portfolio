@@ -16,6 +16,7 @@ export const personalDetails: PersonalDetails = {
   expectedGraduation: 'May 2027',
   location: 'Sri Lanka',
   tagline: 'Engineering AI-driven computer vision systems, digital hardware controllers, and robust full-stack applications.',
+  avatarUrl: '/profile.jpg', // Drop your profile image as 'public/profile.jpg' or 'public/profile.png'
   // Bio kept under 180 words as specified
   shortBio: `I am a Computer Engineering undergraduate at University of Ruhuna passionate about artificial intelligence, computer vision, embedded digital hardware design, and full-stack software development. My academic foundation combines computer science principles—data structures, algorithm design, machine learning, and operating systems—with low-level hardware architecture using Verilog/VHDL and FPGAs. I thrive on solving complex engineering challenges, writing clean and testable code, and engineering high-performance software solutions. I am actively seeking software engineering and computer engineering internship/graduate opportunities.`,
   resumeUrl: '/Common_CV.pdf', // General Master CV
@@ -381,27 +382,19 @@ export const certificationItems: CertificationItem[] = [
 
 export const achievementItems: AchievementItem[] = [
   {
-    id: 'achieve-1',
-    title: 'Dean\'s List / Academic Merit (3.4 GPA)',
-    category: 'Scholarship',
+    id: 'achieve-karate-vice-captain',
+    title: 'Vice-Captain, Karate Team',
+    category: 'Leadership',
     organization: 'Faculty of Engineering, University of Ruhuna',
     year: '2024 – 2025',
-    description: 'Maintained strong academic standing with a 3.4 / 4.0 cumulative GPA in the Computer Engineering specialization.',
+    description: 'Led sports team training sessions, promoted athletic discipline, and organized competitive martial arts events.',
   },
   {
-    id: 'achieve-2',
-    title: 'Open Source System Creator (12+ Repositories)',
-    category: 'Competition',
-    organization: 'GitHub Open Source Community',
-    year: '2023 – 2026',
-    description: 'Designed and deployed 12 distinct software repositories spanning Computer Vision, FPGA Lift Controllers, and Healthcare platforms.',
-  },
-  {
-    id: 'achieve-3',
-    title: 'Computer Engineering Student Representative',
+    id: 'achieve-ieee-iesl-member',
+    title: 'Active Member | IESL & IEEE Student Branches',
     category: 'Leadership',
-    organization: 'University of Ruhuna Engineering Society',
+    organization: 'Institution of Engineers Sri Lanka (IESL) & IEEE',
     year: '2024 – Present',
-    description: 'Engaged in academic workshops, peer tutoring in programming, and hardware design study groups.',
+    description: 'Active member participating in professional engineering workshops, seminars, and tech community activities.',
   },
 ];
