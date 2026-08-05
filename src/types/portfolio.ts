@@ -70,6 +70,13 @@ export interface ExperienceItem {
   isPlaceholderNotice?: boolean;
 }
 
+export interface AdditionalEducation {
+  institution: string;
+  degree: string;
+  period: string;
+  description?: string;
+}
+
 export interface EducationItem {
   institution: string;
   degree: string;
@@ -81,6 +88,7 @@ export interface EducationItem {
     summary: string;
     technologies: string[];
   };
+  additionalEducation?: AdditionalEducation[];
 }
 
 export interface CertificationItem {
@@ -88,6 +96,7 @@ export interface CertificationItem {
   title: string;
   issuer: string;
   date: string;
+  credentialId?: string;
   credentialUrl?: string;
   skills: string[];
 }
