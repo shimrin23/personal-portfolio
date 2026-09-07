@@ -141,9 +141,52 @@ export const skillCategories: SkillCategory[] = [
 
 export const projects: Project[] = [
   {
+    id: 'offline-egg-counting-yolo',
+    title: 'Offline Egg Counting Application Using YOLO',
+    isFlagship: true,
+    summary: 'An offline computer-vision application that automatically detects and counts eggs in trays or boxes from images or camera input using a locally deployed, optimized YOLO deep learning model.',
+    problem: 'Manually counting eggs is repetitive, labor-intensive, and time-consuming, particularly when processing high-volume commercial trays and crates.',
+    solution: 'Engineered an end-to-end computer vision pipeline that preprocesses input images, detects individual eggs using an optimized YOLO model, applies post-processing, and computes total egg counts locally without cloud dependencies.',
+    technologies: ['Python', 'YOLO', 'OpenCV', 'PyTorch', 'ONNX', 'ONNX Runtime', 'FastAPI', 'Uvicorn', 'Flutter', 'Dart', 'SQLite', 'Git'],
+    role: 'AI/ML Engineer & Full-Stack Developer',
+    features: [
+      'Automatic egg detection and precision counting from both static images and live camera feeds',
+      'Fully offline, high-speed inference powered by ONNX Runtime',
+      'Dual platform deployment: FastAPI desktop web backend and Flutter on-device mobile application',
+      'Local history and audit logging with SQLite for tracking batch counting sessions',
+    ],
+    githubUrl: 'https://github.com/shimrin23/Egg-Counting-Application',
+    architectureDetails: [
+      'Desktop Architecture: FastAPI backend serving the YOLO/ONNX inference pipeline connected to a responsive web UI',
+      'Mobile Architecture: Cross-platform Flutter application with on-device ONNX Runtime inference and local SQLite persistence',
+    ],
+    metricsOrOutcome: 'Achieved ~94.2% precision, 86.7% recall, and 93.3% mAP@50, with verified counting accuracy between 84%–100% across tested trays.',
+  },
+  {
+    id: 'studymind-chrome-extension',
+    title: 'StudyMind – AI-Powered Study Focus Chrome Extension',
+    summary: 'Chrome extension designed to help students maintain focus by restricting access to distracting websites during study sessions with customizable blocking and session monitoring.',
+    problem: 'Students frequently lose productive study hours to social media, streaming entertainment, and digital distractions while using their web browser for academic work.',
+    solution: 'Designed and developed a lightweight browser extension that enables students to configure focused study sessions and automatically enforce website restriction policies.',
+    technologies: ['JavaScript', 'HTML5', 'CSS3', 'Chrome Extensions API', 'Chrome Storage API'],
+    role: 'Full-Stack / Extension Developer',
+    features: [
+      'Custom website blocking and redirection during scheduled focus intervals',
+      'Study-mode controls and timer presets for distraction management',
+      'Persistent configuration and customizable blocklists saved via Chrome Storage',
+      'Intuitive, distraction-free user interface designed specifically for students',
+    ],
+    githubUrl: 'https://github.com/shimrin23/StudyMind',
+    architectureDetails: [
+      'Extension UI communicates seamlessly with background service workers and content scripts through the Chrome Extensions API',
+      'User preferences, session statistics, and blocked URLs are stored locally using Chrome Storage with zero external server dependencies',
+    ],
+    metricsOrOutcome: 'Lightweight, 100% privacy-preserving study-focus tool operating completely client-side without requiring a backend or user tracking.',
+  },
+  {
     id: 'flagship-speed-estimation',
     title: 'Vision-Based Vehicle Speed Estimation',
-    isFlagship: true,
+    isFlagship: false,
     summary: 'AI-powered computer vision system that detects vehicles and estimates real-time traffic speeds from video feeds without specialized hardware.',
     problem: 'Traditional speed monitoring relies on expensive radar/LIDAR hardware, making widespread traffic analytics costly for municipalities.',
     solution: 'Engineered an end-to-end computer vision pipeline using Python and OpenCV that performs object detection, centroid tracking, and pixel-to-meter perspective transformation for speed estimation.',
