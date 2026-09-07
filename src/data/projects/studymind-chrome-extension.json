@@ -1,9 +1,5 @@
 {
-  "id": "studymind-chrome-extension",
-  "title": "StudyMind – AI-Powered Study Focus Chrome Extension",
   "summary": "Chrome extension designed to help students maintain focus by restricting access to distracting websites during study sessions with customizable blocking and session monitoring.",
-  "problem": "Students frequently lose productive study hours to social media, streaming entertainment, and digital distractions while using their web browser for academic work.",
-  "solution": "Designed and developed a lightweight browser extension that enables students to configure focused study sessions and automatically enforce website restriction policies.",
   "technologies": [
     "JavaScript",
     "HTML5",
@@ -11,17 +7,21 @@
     "Chrome Extensions API",
     "Chrome Storage API"
   ],
+  "metricsOrOutcome": "Lightweight, 100% privacy-preserving study-focus tool operating completely client-side without requiring a backend or user tracking.",
+  "githubUrl": "https://github.com/shimrin23/StudyMind",
+  "architectureDetails": [
+    "Extension UI communicates seamlessly with background service workers and content scripts through the Chrome Extensions API",
+    "User preferences, session statistics, and blocked URLs are stored locally using Chrome Storage with zero external server dependencies"
+  ],
   "role": "Full-Stack / Extension Developer",
+  "title": "StudyMind – Study Focus Chrome Extension",
+  "solution": "Designed and developed a lightweight browser extension that enables students to configure focused study sessions and automatically enforce website restriction policies.",
+  "id": "studymind-chrome-extension",
   "features": [
     "Custom website blocking and redirection during scheduled focus intervals",
     "Study-mode controls and timer presets for distraction management",
     "Persistent configuration and customizable blocklists saved via Chrome Storage",
     "Intuitive, distraction-free user interface designed specifically for students"
   ],
-  "githubUrl": "https://github.com/shimrin23/StudyMind",
-  "architectureDetails": [
-    "Extension UI communicates seamlessly with background service workers and content scripts through the Chrome Extensions API",
-    "User preferences, session statistics, and blocked URLs are stored locally using Chrome Storage with zero external server dependencies"
-  ],
-  "metricsOrOutcome": "Lightweight, 100% privacy-preserving study-focus tool operating completely client-side without requiring a backend or user tracking."
+  "problem": "Students frequently lose productive study hours to social media, streaming entertainment, and digital distractions while using their web browser for academic work."
 }
