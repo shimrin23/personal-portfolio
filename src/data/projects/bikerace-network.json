@@ -1,0 +1,20 @@
+{
+  "id": "bikerace-network",
+  "title": "Bike Race Network",
+  "summary": "Cycling community and race management platform connecting riders, race organizers, and leaderboard tracking.",
+  "problem": "Local cycling events lack centralized digital registration, live result updates, and rider community networking.",
+  "solution": "Built a web platform allowing organizers to host cycling events, register participants, and publish race results.",
+  "technologies": [
+    "Web Technologies",
+    "Database",
+    "Backend Framework",
+    "JavaScript"
+  ],
+  "role": "Full-Stack Developer",
+  "features": [
+    "Event registration and race participant profile management",
+    "Interactive leaderboard displays for timed race stages",
+    "Rider community feed and event announcement hub"
+  ],
+  "githubUrl": "https://github.com/shimrin23/BikeRaceNetwork"
+}

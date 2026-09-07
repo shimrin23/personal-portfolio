@@ -1,0 +1,21 @@
+{
+  "id": "snis-nutrition",
+  "title": "Smart Nutrition Intelligence System (SNIS)",
+  "summary": "AI-powered healthcare and nutrition platform providing personalized meal recommendations and dietary analytics.",
+  "problem": "Generic diet plans fail to account for individual health profiles, leading to poor dietary compliance and suboptimal health outcomes.",
+  "solution": "Designed an intelligent recommendation engine analyzing user metrics and dietary restrictions to deliver data-driven nutritional guidance.",
+  "technologies": [
+    "Python",
+    "Machine Learning",
+    "Data Analysis",
+    "Web Technologies",
+    "Database"
+  ],
+  "role": "Full-Stack & ML Engineer",
+  "features": [
+    "Personalized dietary recommendation algorithm based on user health parameters",
+    "Nutritional breakdown visualization and macro-nutrient balance tracking",
+    "User health metric profiling and goal tracking dashboard"
+  ],
+  "githubUrl": "https://github.com/shimrin23/Smart-Nutrition-Intelligence-System-SNIS-"
+}

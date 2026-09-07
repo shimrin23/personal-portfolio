@@ -1,0 +1,20 @@
+{
+  "id": "sl-traffic-fine-management",
+  "title": "SL Traffic Fine Management System",
+  "summary": "Digital platform for automating traffic violation processing, fine issuing, and official payment records.",
+  "problem": "Manual paper-based traffic ticketing in Sri Lanka causes processing delays, lost records, and inefficient fine settlement.",
+  "solution": "Engineered a full-stack digital management platform streamlining traffic officer ticketing, driver notifications, and centralized payment tracking.",
+  "technologies": [
+    "Web Technologies",
+    "Database",
+    "Backend Frameworks",
+    "RESTful APIs"
+  ],
+  "role": "Full-Stack Developer",
+  "features": [
+    "Officer violation logging interface with instant fine calculation",
+    "Centralized database storing driver license numbers, violation codes, and payment statuses",
+    "Responsive web portal for drivers to inspect ticket details and settle fines online"
+  ],
+  "githubUrl": "https://github.com/shimrin23/sl-traffic-fine-management"
+}

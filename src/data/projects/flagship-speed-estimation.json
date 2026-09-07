@@ -1,0 +1,27 @@
+{
+  "id": "flagship-speed-estimation",
+  "title": "Vision-Based Vehicle Speed Estimation",
+  "isFlagship": false,
+  "summary": "AI-powered computer vision system that detects vehicles and estimates real-time traffic speeds from video feeds without specialized hardware.",
+  "problem": "Traditional speed monitoring relies on expensive radar/LIDAR hardware, making widespread traffic analytics costly for municipalities.",
+  "solution": "Engineered an end-to-end computer vision pipeline using Python and OpenCV that performs object detection, centroid tracking, and pixel-to-meter perspective transformation for speed estimation.",
+  "technologies": [
+    "Python",
+    "OpenCV",
+    "Computer Vision",
+    "Machine Learning",
+    "Object Detection"
+  ],
+  "role": "Lead AI & Computer Vision Developer",
+  "features": [
+    "Real-time vehicle detection and bounding-box tracking using optical flow and centroid analysis",
+    "Perspective calibration mapping pixel displacements to physical real-world metric distances",
+    "Automated speed calculation with visual violation alerts and speed statistics output"
+  ],
+  "githubUrl": "https://github.com/shimrin23/Vision-Based-Vehicle-Speed-Estimation",
+  "architectureDetails": [
+    "Preprocessing stage: Frame differencing, noise reduction, and region-of-interest (ROI) filtering",
+    "Tracking & Measurement: Multi-object centroid tracker with velocity vector calculation per frame interval"
+  ],
+  "metricsOrOutcome": "Accurate non-intrusive vehicle speed detection from standard video camera feeds"
+}

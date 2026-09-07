@@ -1,0 +1,21 @@
+{
+  "id": "kidneylink-platform",
+  "title": "KidneyLink Healthcare Platform",
+  "summary": "Healthcare platform connecting kidney patients, organ donors, and specialized healthcare providers.",
+  "problem": "Matching organ donors with kidney disease patients requires secure, centralized data coordination and urgent communication channels.",
+  "solution": "Developed a confidential medical portal providing donor-patient matching assistance, hospital directory access, and healthcare records management.",
+  "technologies": [
+    "React",
+    "Web Technologies",
+    "Node.js",
+    "Database Systems",
+    "REST APIs"
+  ],
+  "role": "Full-Stack Engineer",
+  "features": [
+    "Secure donor registration and compatibility parameter matching",
+    "Patient assistance portal linking patients with specialized dialysis centers and doctors",
+    "Role-based access control ensuring medical data privacy and compliance"
+  ],
+  "githubUrl": "https://github.com/shimrin23/KidneyLink"
+}

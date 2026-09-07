@@ -1,0 +1,19 @@
+{
+  "id": "daily-task-manager",
+  "title": "Daily Task Manager",
+  "summary": "Productivity application for organizing daily schedules, prioritizing tasks, and tracking completion.",
+  "problem": "Unstructured daily task lists lead to low task completion rates and poor time management.",
+  "solution": "Built a clean task management tool with priority filters, deadlines, and task progress tracking.",
+  "technologies": [
+    "Web / Mobile Technologies",
+    "Database",
+    "CRUD Architecture"
+  ],
+  "role": "Developer",
+  "features": [
+    "CRUD task management with priority tags (High, Medium, Low)",
+    "Due date notifications and progress completion metrics",
+    "Responsive design optimized for quick daily task logging"
+  ],
+  "githubUrl": "https://github.com/shimrin23/Daily-Task-Manager"
+}

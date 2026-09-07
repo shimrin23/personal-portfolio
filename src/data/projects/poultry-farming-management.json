@@ -1,0 +1,19 @@
+{
+  "id": "poultry-farming-management",
+  "title": "Poultry Farming Management System",
+  "summary": "Agricultural technology system digitizing poultry farm operations, livestock tracking, and production logging.",
+  "problem": "Traditional poultry farm record-keeping leads to inaccurate egg production counts, feed waste, and missed health checks.",
+  "solution": "Designed an integrated farm management system tracking flock batches, feed consumption, mortality rates, and sales.",
+  "technologies": [
+    "Web Technologies",
+    "Database",
+    "Backend Development"
+  ],
+  "role": "Full-Stack Developer",
+  "features": [
+    "Flock health and daily egg production logging module",
+    "Feed inventory management and re-order threshold alerts",
+    "Farm sales and revenue reporting dashboard"
+  ],
+  "githubUrl": "https://github.com/shimrin23/Poloitary_Farming"
+}

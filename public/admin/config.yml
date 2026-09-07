@@ -1,0 +1,32 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Allows testing locally with decap-server
+local_backend: true
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "projects"
+    label: "Projects"
+    label_singular: "Project"
+    folder: "src/data/projects"
+    create: true
+    slug: "{{slug}}"
+    format: "json"
+    fields:
+      - { label: "Unique ID / Slug", name: "id", widget: "string" }
+      - { label: "Project Title", name: "title", widget: "string" }
+      - { label: "Flagship Project?", name: "isFlagship", widget: "boolean", default: false, required: false }
+      - { label: "Role", name: "role", widget: "string" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Problem Statement", name: "problem", widget: "text" }
+      - { label: "Solution", name: "solution", widget: "text" }
+      - { label: "Technologies", name: "technologies", widget: "list" }
+      - { label: "Key Features", name: "features", widget: "list" }
+      - { label: "GitHub Repository URL", name: "githubUrl", widget: "string" }
+      - { label: "Live Demo URL", name: "liveDemoUrl", widget: "string", required: false }
+      - { label: "Architecture Details", name: "architectureDetails", widget: "list", required: false }
+      - { label: "Metrics / Outcome", name: "metricsOrOutcome", widget: "string", required: false }

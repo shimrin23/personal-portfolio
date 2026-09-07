@@ -1,0 +1,21 @@
+{
+  "id": "lift-controller-hdl",
+  "title": "HDL-Based 4-Floor Lift Controller",
+  "summary": "FPGA-based elevator controller designed using Hardware Description Language (HDL) and Finite State Machine (FSM) architecture.",
+  "problem": "Multi-floor elevator dispatch logic requires deterministic real-time control, priority scheduling, and fail-safe safety interlocks.",
+  "solution": "Implemented a robust Finite State Machine in Verilog/VHDL synthesized for FPGA execution with simulated push-button request queues.",
+  "technologies": [
+    "Verilog / VHDL",
+    "FPGA",
+    "Finite State Machines (FSM)",
+    "Digital Logic Design",
+    "ModelSim"
+  ],
+  "role": "Digital Hardware Designer",
+  "features": [
+    "Comprehensive FSM implementation managing Idle, Moving Up, Moving Down, and Door Open states",
+    "Priority request queuing for floor calls with directional optimization",
+    "Simulation testbench verification validating edge cases and emergency signal responses"
+  ],
+  "githubUrl": "https://github.com/shimrin23/HDL-Based-4-Floor-Lift-Controller"
+}

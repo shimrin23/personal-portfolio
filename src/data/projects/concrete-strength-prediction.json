@@ -1,0 +1,21 @@
+{
+  "id": "concrete-strength-prediction",
+  "title": "Concrete Strength Prediction",
+  "summary": "Machine learning model predicting concrete compressive strength based on material composition parameters.",
+  "problem": "Traditional 28-day concrete strength curing tests delay construction timelines and material quality validation.",
+  "solution": "Trained regression algorithms on material component datasets (cement, blast furnace slag, fly ash, water, superplasticizer) for accurate instant strength prediction.",
+  "technologies": [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Scikit-Learn",
+    "Matplotlib / Seaborn"
+  ],
+  "role": "Machine Learning Developer",
+  "features": [
+    "Data cleaning, feature scaling, and correlation matrix analysis across material inputs",
+    "Supervised regression modeling evaluating algorithm metrics (RMSE, R² score)",
+    "Interactive predictor interface for real-time mix evaluation"
+  ],
+  "githubUrl": "https://github.com/shimrin23/Concrete-Strength-Prediction"
+}

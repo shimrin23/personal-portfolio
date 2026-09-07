@@ -1,0 +1,20 @@
+{
+  "id": "job-searching-app",
+  "title": "Job Searching & Recruitment App",
+  "summary": "Full-stack job portal helping job seekers discover tech vacancies and manage candidate applications.",
+  "problem": "Job seekers need a streamlined portal to search filtered listings and submit targeted applications efficiently.",
+  "solution": "Developed a job searching application with category search filters, resume submissions, and recruiter job posting interfaces.",
+  "technologies": [
+    "Web Technologies",
+    "Database",
+    "Backend Framework",
+    "APIs"
+  ],
+  "role": "Full-Stack Developer",
+  "features": [
+    "Job posting management for recruiters with applicant tracking",
+    "Keyword and location search filtering for job seekers",
+    "Application status tracking dashboard"
+  ],
+  "githubUrl": "https://github.com/shimrin23/job-searching-app"
+}

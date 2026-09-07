@@ -1,0 +1,20 @@
+{
+  "id": "money-manager",
+  "title": "Money Manager Personal Finance App",
+  "summary": "Desktop personal finance application for tracking income, daily expenses, and budget analytics.",
+  "problem": "Managing personal budgets manually often leads to unorganized financial tracking and lack of spending insights.",
+  "solution": "Created an Object-Oriented Java application with a graphical interface for transaction logging, category budget caps, and financial summaries.",
+  "technologies": [
+    "Java",
+    "JavaFX / Swing",
+    "Object-Oriented Programming (OOP)",
+    "File Storage"
+  ],
+  "role": "Software Developer",
+  "features": [
+    "Income and expense categorization with automated balance calculations",
+    "Monthly budget cap warnings and interactive visual graphs",
+    "Data persistence saving transactions securely to local storage"
+  ],
+  "githubUrl": "https://github.com/shimrin23/MoneyManager"
+}

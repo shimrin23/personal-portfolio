@@ -1,0 +1,19 @@
+{
+  "id": "online-salon-booking",
+  "title": "Online Salon Booking System",
+  "summary": "Appointment scheduling platform allowing clients to book salon services and manage staff timetables.",
+  "problem": "Phone-based salon appointments lead to booking overlaps, missed appointments, and double-scheduled stylists.",
+  "solution": "Engineered an online booking engine with real-time time-slot availability and automated confirmation.",
+  "technologies": [
+    "Web Technologies",
+    "Database",
+    "Backend Development"
+  ],
+  "role": "Web Developer",
+  "features": [
+    "Real-time appointment slot selection and stylist allocation",
+    "Client booking management and service catalog pricing",
+    "Admin dashboard for managing daily salon schedules"
+  ],
+  "githubUrl": "https://github.com/shimrin23/Online-Salon-Booking"
+}

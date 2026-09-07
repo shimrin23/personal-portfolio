@@ -1,0 +1,35 @@
+{
+  "id": "offline-egg-counting-yolo",
+  "title": "Offline Egg Counting Application Using YOLO",
+  "isFlagship": true,
+  "summary": "An offline computer-vision application that automatically detects and counts eggs in trays or boxes from images or camera input using a locally deployed, optimized YOLO deep learning model.",
+  "problem": "Manually counting eggs is repetitive, labor-intensive, and time-consuming, particularly when processing high-volume commercial trays and crates.",
+  "solution": "Engineered an end-to-end computer vision pipeline that preprocesses input images, detects individual eggs using an optimized YOLO model, applies post-processing, and computes total egg counts locally without cloud dependencies.",
+  "technologies": [
+    "Python",
+    "YOLO",
+    "OpenCV",
+    "PyTorch",
+    "ONNX",
+    "ONNX Runtime",
+    "FastAPI",
+    "Uvicorn",
+    "Flutter",
+    "Dart",
+    "SQLite",
+    "Git"
+  ],
+  "role": "AI/ML Engineer & Full-Stack Developer",
+  "features": [
+    "Automatic egg detection and precision counting from both static images and live camera feeds",
+    "Fully offline, high-speed inference powered by ONNX Runtime",
+    "Dual platform deployment: FastAPI desktop web backend and Flutter on-device mobile application",
+    "Local history and audit logging with SQLite for tracking batch counting sessions"
+  ],
+  "githubUrl": "https://github.com/shimrin23/Egg-Counting-Application",
+  "architectureDetails": [
+    "Desktop Architecture: FastAPI backend serving the YOLO/ONNX inference pipeline connected to a responsive web UI",
+    "Mobile Architecture: Cross-platform Flutter application with on-device ONNX Runtime inference and local SQLite persistence"
+  ],
+  "metricsOrOutcome": "Achieved ~94.2% precision, 86.7% recall, and 93.3% mAP@50, with verified counting accuracy between 84%–100% across tested trays."
+}
