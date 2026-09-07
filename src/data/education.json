@@ -1,0 +1,61 @@
+{
+  "institution": "University of Ruhuna",
+  "degree": "Bachelor of Science in Engineering (Hons) in Computer Engineering",
+  "graduationYear": "Expected Graduation: May 2027",
+  "gpa": "3.4 / 4.0",
+  "relevantCoursework": [
+    "Data Structures & Algorithms",
+    "Advanced Data Structures & Algorithms",
+    "Computer Architecture",
+    "Database Systems",
+    "Software Engineering Principles",
+    "Software Testing & Quality Assurance",
+    "Digital Logic Design",
+    "Digital System Design with HDL",
+    "Machine Learning",
+    "Artificial Intelligence",
+    "Computer Vision & Image Processing",
+    "Operating System & Network Programming",
+    "Computer Networks",
+    "Embedded Systems Design",
+    "Object Oriented Design Patterns & Principles",
+    "Web Application Development",
+    "Mobile Application Development",
+    "DevOps Engineering",
+    "Software Architecture",
+    "Software Group Project",
+    "GUI Programming",
+    "Electrical & Electronic Measurements",
+    "Analog Electronics",
+    "Signals & Systems",
+    "Control Systems Design",
+    "Discrete Mathematics",
+    "Probability & Statistics",
+    "Complex Analysis & Mathematical Transforms",
+    "Numerical Methods",
+    "Information Security",
+    "Research Methodologies",
+    "Engineering Ethics",
+    "Fundamentals of Management for Engineers",
+    "Society & the Engineers",
+    "Basic Economics"
+  ],
+  "finalYearProject": {
+    "title": "Computer Vision & Embedded Hardware Integration",
+    "summary": "Undergraduate research focus integrating machine learning and real-time computer vision models with dedicated hardware controllers.",
+    "technologies": [
+      "Python",
+      "OpenCV",
+      "Verilog",
+      "Embedded Systems"
+    ]
+  },
+  "additionalEducation": [
+    {
+      "institution": "Aquinas College of Higher Studies",
+      "degree": "Diploma in English Language and Literature",
+      "period": "Mar 2022 – Jun 2024",
+      "description": "Advanced diploma program in English Language & Literature, developing strong written, verbal, and technical communication skills."
+    }
+  ]
+}

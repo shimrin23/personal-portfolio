@@ -1,0 +1,50 @@
+{
+  "name": "Sirajuddeen Muhammadu Shimrin",
+  "title": "Computer Engineering Undergraduate",
+  "university": "University of Ruhuna",
+  "degree": "B.Sc. Engineering (Hons) in Computer Engineering",
+  "expectedGraduation": "May 2027",
+  "location": "Sri Lanka",
+  "tagline": "Engineering AI-driven computer vision systems, digital hardware controllers, and robust full-stack applications.",
+  "avatarUrl": "/profile.jpg",
+  "shortBio": "Computer Engineering Undergraduate at the University of Ruhuna, passionate about building innovative solutions through software and hardware technologies. Interested in Artificial Intelligence, Computer Vision, Embedded Systems, Digital Hardware Design, and Full-Stack Software Development. Strong foundation in Data Structures & Algorithms, Machine Learning, Operating Systems, Computer Architecture, and Software Engineering principles. Enjoy solving complex engineering problems by designing efficient systems, writing clean and maintainable code, and continuously improving technical skills. Currently exploring emerging technologies and seeking Software Engineering / Computer Engineering internship and graduate opportunities to contribute, learn, and grow as an engineer.",
+  "resumeUrl": "/Common_CV.pdf",
+  "resumeLastUpdated": "August 2026",
+  "specializedResumes": [
+    {
+      "label": "Common Computer Engineering CV",
+      "description": "Comprehensive Master CV covering Software, AI/ML, Cybersecurity, and Hardware Engineering.",
+      "url": "/Common_CV.pdf",
+      "iconType": "general"
+    },
+    {
+      "label": "Software Engineering CV",
+      "description": "Tailored for Full-Stack, Backend, and Core Software Engineering roles.",
+      "url": "/Software_Engineering_CV.pdf",
+      "iconType": "software"
+    },
+    {
+      "label": "AI & Machine Learning Engineering CV",
+      "description": "Tailored for Artificial Intelligence, Computer Vision (OpenCV), and ML roles.",
+      "url": "/AI_ML_Engineering_CV.pdf",
+      "iconType": "aiml"
+    },
+    {
+      "label": "Cybersecurity & Networking Engineering CV",
+      "description": "Tailored for Network Security, Systems Hardening, and Protocols roles.",
+      "url": "/Cybersecurity_Network_Engineering_CV .pdf",
+      "iconType": "cybersecurity"
+    },
+    {
+      "label": "Hardware Engineering CV",
+      "description": "Tailored for FPGA Design, Verilog/VHDL, Digital Logic, and Embedded Hardware roles.",
+      "url": "/Hardware_Engineering_CV.pdf",
+      "iconType": "hardware"
+    }
+  ],
+  "socials": {
+    "github": "https://github.com/shimrin23",
+    "linkedin": "https://www.linkedin.com/in/smrn01223",
+    "email": "shimrinsiraj@gmail.com"
+  }
+}

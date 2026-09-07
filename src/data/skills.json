@@ -1,0 +1,198 @@
+{
+  "categories": [
+    {
+      "id": "languages",
+      "title": "Languages",
+      "description": "Core programming languages for systems, AI/ML, and application engineering.",
+      "skills": [
+        {
+          "name": "Python",
+          "level": "Proficient",
+          "highlight": true
+        },
+        {
+          "name": "C / C++",
+          "level": "Proficient",
+          "highlight": true
+        },
+        {
+          "name": "Java",
+          "level": "Proficient"
+        },
+        {
+          "name": "JavaScript (ES6+)",
+          "level": "Proficient"
+        },
+        {
+          "name": "TypeScript",
+          "level": "Proficient",
+          "highlight": true
+        },
+        {
+          "name": "Verilog / VHDL",
+          "level": "Proficient",
+          "highlight": true
+        },
+        {
+          "name": "SQL",
+          "level": "Proficient"
+        }
+      ]
+    },
+    {
+      "id": "computer-engineering",
+      "title": "Computer Engineering & Hardware",
+      "description": "Digital logic design, microcontrollers, state machines, and hardware architecture.",
+      "skills": [
+        {
+          "name": "Digital Hardware Design",
+          "level": "Proficient",
+          "highlight": true
+        },
+        {
+          "name": "FPGA Architecture",
+          "level": "Proficient",
+          "highlight": true
+        },
+        {
+          "name": "Finite State Machines (FSM)",
+          "level": "Proficient",
+          "highlight": true
+        },
+        {
+          "name": "Data Structures & Algorithms",
+          "level": "Proficient",
+          "highlight": true
+        },
+        {
+          "name": "Operating Systems",
+          "level": "Proficient"
+        },
+        {
+          "name": "Computer Networks",
+          "level": "Proficient"
+        },
+        {
+          "name": "Embedded Microcontrollers",
+          "level": "Proficient"
+        }
+      ]
+    },
+    {
+      "id": "ai-ml",
+      "title": "AI & Computer Vision",
+      "description": "Machine learning algorithms, computer vision pipelines, and predictive analytics.",
+      "skills": [
+        {
+          "name": "OpenCV",
+          "level": "Proficient",
+          "highlight": true
+        },
+        {
+          "name": "Object Detection",
+          "level": "Proficient",
+          "highlight": true
+        },
+        {
+          "name": "Scikit-Learn",
+          "level": "Proficient",
+          "highlight": true
+        },
+        {
+          "name": "Pandas & NumPy",
+          "level": "Proficient"
+        },
+        {
+          "name": "Predictive Analytics",
+          "level": "Proficient"
+        },
+        {
+          "name": "Data Visualization",
+          "level": "Proficient"
+        }
+      ]
+    },
+    {
+      "id": "web",
+      "title": "Full-Stack & Web Technologies",
+      "description": "Modern web application frameworks, backend development, and RESTful APIs.",
+      "skills": [
+        {
+          "name": "HTML5 / CSS3",
+          "level": "Proficient"
+        },
+        {
+          "name": "React",
+          "level": "Proficient",
+          "highlight": true
+        },
+        {
+          "name": "Node.js & Express",
+          "level": "Proficient"
+        },
+        {
+          "name": "RESTful API Design",
+          "level": "Proficient",
+          "highlight": true
+        },
+        {
+          "name": "JavaFX / Swing",
+          "level": "Proficient"
+        },
+        {
+          "name": "Tailwind CSS",
+          "level": "Proficient"
+        }
+      ]
+    },
+    {
+      "id": "databases",
+      "title": "Databases & Storage",
+      "description": "Relational databases and application data management.",
+      "skills": [
+        {
+          "name": "MySQL",
+          "level": "Proficient",
+          "highlight": true
+        },
+        {
+          "name": "PostgreSQL",
+          "level": "Proficient"
+        },
+        {
+          "name": "Database Schema Design",
+          "level": "Proficient"
+        },
+        {
+          "name": "File Storage & Persistence",
+          "level": "Proficient"
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "title": "DevOps & Development Tools",
+      "description": "Version control, hardware simulation tools, and Unix environments.",
+      "skills": [
+        {
+          "name": "Git & GitHub",
+          "level": "Proficient",
+          "highlight": true
+        },
+        {
+          "name": "Linux / Unix Command Line",
+          "level": "Proficient",
+          "highlight": true
+        },
+        {
+          "name": "FPGA Simulation Tools",
+          "level": "Proficient"
+        },
+        {
+          "name": "VS Code",
+          "level": "Proficient"
+        }
+      ]
+    }
+  ]
+}

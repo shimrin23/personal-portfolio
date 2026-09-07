@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "botcalm-internship",
+      "type": "Internship",
+      "role": "Software Engineering Intern",
+      "organization": "BotCalm Private Ltd",
+      "location": "Sri Lanka",
+      "period": "2025 – Present",
+      "responsibilities": [
+        "Assisting in the design and deployment of automated software solutions and AI integration at BotCalm Private Ltd.",
+        "Collaborating with senior engineers to implement full-stack features, optimize API endpoints, and refine UI components.",
+        "Participating in agile code reviews, system debugging, and quality assurance for client software products."
+      ],
+      "technologies": [
+        "Python",
+        "Web Technologies",
+        "JavaScript / TypeScript",
+        "REST APIs",
+        "Git"
+      ]
+    }
+  ]
+}

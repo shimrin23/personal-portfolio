@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "id": "achieve-karate-vice-captain",
+      "title": "Vice-Captain, Karate Team",
+      "category": "Leadership",
+      "organization": "Faculty of Engineering, University of Ruhuna",
+      "year": "2024 – 2025",
+      "description": "Led sports team training sessions, promoted athletic discipline, and organized competitive martial arts events."
+    },
+    {
+      "id": "achieve-ieee-iesl-member",
+      "title": "Active Member | IESL & IEEE Student Branches",
+      "category": "Leadership",
+      "organization": "Institution of Engineers Sri Lanka (IESL) & IEEE",
+      "year": "2024 – Present",
+      "description": "Active member participating in professional engineering workshops, seminars, and tech community activities."
+    }
+  ]
+}

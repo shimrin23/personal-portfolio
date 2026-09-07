@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "id": "cert-aws-ai",
+      "title": "AWS AI Practitioner Challenge",
+      "issuer": "Udacity",
+      "date": "May 2026",
+      "credentialUrl": "https://www.linkedin.com/in/smrn01223/details/certifications/",
+      "skills": [
+        "AWS AI",
+        "Artificial Intelligence",
+        "Cloud Machine Learning"
+      ]
+    },
+    {
+      "id": "cert-ieeextreme",
+      "title": "IEEEXtreme 19.0 Global Programming Competition - Participant",
+      "issuer": "IEEE (Team FireForces)",
+      "date": "Oct 2025",
+      "credentialUrl": "https://www.linkedin.com/in/smrn01223/details/certifications/",
+      "skills": [
+        "Data Structures",
+        "Algorithms",
+        "Competitive Programming",
+        "Problem Solving"
+      ]
+    },
+    {
+      "id": "cert-cursor-vibe",
+      "title": "Cursor Vibe Coding Pro: Build Any App from Scratch with AI",
+      "issuer": "Udemy",
+      "date": "Apr 2026",
+      "credentialId": "UC-05893f96-eef3-4063-887d-e86e9a41a023",
+      "credentialUrl": "https://www.linkedin.com/in/smrn01223/details/certifications/",
+      "skills": [
+        "AI-Assisted Coding",
+        "Prompt Engineering",
+        "Rapid App Prototyping"
+      ]
+    },
+    {
+      "id": "cert-networking-fundamentals",
+      "title": "Networking Fundamentals",
+      "issuer": "IEEE",
+      "date": "Apr 2025",
+      "credentialUrl": "https://www.linkedin.com/in/smrn01223/details/certifications/",
+      "skills": [
+        "Networking",
+        "Wireshark",
+        "TCP/IP Protocols"
+      ]
+    },
+    {
+      "id": "cert-hp-ai-beginners",
+      "title": "AI For Beginners",
+      "issuer": "HP LIFE",
+      "date": "Apr 2025",
+      "credentialId": "19577602-dbf6-4cef-a082-8a1ad0cf1ed9",
+      "credentialUrl": "https://www.linkedin.com/in/smrn01223/details/certifications/",
+      "skills": [
+        "Artificial Intelligence (AI)",
+        "Data Literacy"
+      ]
+    },
+    {
+      "id": "cert-bitcoin-dev",
+      "title": "Bitcoin for Developers",
+      "issuer": "Saylor University",
+      "date": "Apr 2025",
+      "credentialId": "3536047149SS",
+      "credentialUrl": "https://www.linkedin.com/in/smrn01223/details/certifications/",
+      "skills": [
+        "Bitcoin",
+        "Cryptocurrency",
+        "Blockchain Security"
+      ]
+    },
+    {
+      "id": "cert-aquinas-english",
+      "title": "Diploma in English Language and Literature",
+      "issuer": "Aquinas College of Higher Studies",
+      "date": "Jun 2024",
+      "credentialUrl": "https://www.linkedin.com/in/smrn01223/details/certifications/",
+      "skills": [
+        "Communication",
+        "Critical Thinking",
+        "Technical Writing"
+      ]
+    },
+    {
+      "id": "cert-fusion-dica",
+      "title": "Diploma on Computer Applications",
+      "issuer": "Sarvodaya-Fusion",
+      "date": "Jul 2016",
+      "credentialUrl": "https://www.linkedin.com/in/smrn01223/details/certifications/",
+      "skills": [
+        "Computer Applications",
+        "Internet & Email",
+        "Digital Literacy"
+      ]
+    }
+  ]
+}

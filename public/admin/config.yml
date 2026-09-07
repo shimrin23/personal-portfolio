@@ -2,31 +2,218 @@ backend:
   name: git-gateway
   branch: main
 
-# Allows testing locally with decap-server
 local_backend: true
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
 
 collections:
+  # ==========================================
+  # 1. HOME & ABOUT (Personal Profile)
+  # ==========================================
+  - name: "personal_profile"
+    label: "👤 Home & About (Bio & Profile)"
+    files:
+      - label: "Personal Information & Bio"
+        name: "personal_details"
+        file: "src/data/personalDetails.json"
+        fields:
+          - { label: "Full Name", name: "name", widget: "string" }
+          - { label: "Professional Title", name: "title", widget: "string" }
+          - { label: "Hero Tagline", name: "tagline", widget: "string" }
+          - { label: "Location", name: "location", widget: "string" }
+          - { label: "University", name: "university", widget: "string" }
+          - { label: "Degree", name: "degree", widget: "string" }
+          - { label: "Expected Graduation", name: "expectedGraduation", widget: "string" }
+          - { label: "Profile Picture (Upload)", name: "avatarUrl", widget: "image", required: false }
+          - { label: "About Me / Short Bio (Under 180 words)", name: "shortBio", widget: "text" }
+
+  # ==========================================
+  # 2. SKILLS SECTION
+  # ==========================================
+  - name: "skills_section"
+    label: "🛠️ Skills"
+    files:
+      - label: "Skill Categories"
+        name: "skills_data"
+        file: "src/data/skills.json"
+        fields:
+          - label: "Skill Categories"
+            name: "categories"
+            widget: "list"
+            fields:
+              - { label: "Category ID", name: "id", widget: "string" }
+              - { label: "Category Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
+              - label: "Skills in this Category"
+                name: "skills"
+                widget: "list"
+                fields:
+                  - { label: "Skill Name", name: "name", widget: "string" }
+                  - { label: "Proficiency Level", name: "level", widget: "select", options: ["Proficient", "Familiar", "Learning"], required: false }
+                  - { label: "Highlighted / Key Skill?", name: "highlight", widget: "boolean", default: false, required: false }
+
+  # ==========================================
+  # 3. PROJECTS SECTION (Individual Files)
+  # ==========================================
   - name: "projects"
-    label: "Projects"
+    label: "🚀 Projects & Case Studies"
     label_singular: "Project"
     folder: "src/data/projects"
     create: true
     slug: "{{slug}}"
     format: "json"
     fields:
-      - { label: "Unique ID / Slug", name: "id", widget: "string" }
+      - { label: "Unique Slug (e.g. yolo-egg-counter)", name: "id", widget: "string" }
       - { label: "Project Title", name: "title", widget: "string" }
-      - { label: "Flagship Project?", name: "isFlagship", widget: "boolean", default: false, required: false }
-      - { label: "Role", name: "role", widget: "string" }
-      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Primary Flagship Project?", name: "isFlagship", widget: "boolean", default: false, required: false }
+      - { label: "Your Role", name: "role", widget: "string" }
+      - { label: "Quick Summary", name: "summary", widget: "text" }
       - { label: "Problem Statement", name: "problem", widget: "text" }
-      - { label: "Solution", name: "solution", widget: "text" }
-      - { label: "Technologies", name: "technologies", widget: "list" }
-      - { label: "Key Features", name: "features", widget: "list" }
+      - { label: "Engineering Solution", name: "solution", widget: "text" }
+      - { label: "Technologies Used", name: "technologies", widget: "list" }
+      - { label: "Key Features (Bullet Points)", name: "features", widget: "list" }
       - { label: "GitHub Repository URL", name: "githubUrl", widget: "string" }
       - { label: "Live Demo URL", name: "liveDemoUrl", widget: "string", required: false }
-      - { label: "Architecture Details", name: "architectureDetails", widget: "list", required: false }
-      - { label: "Metrics / Outcome", name: "metricsOrOutcome", widget: "string", required: false }
+      - { label: "Architecture / System Details", name: "architectureDetails", widget: "list", required: false }
+      - { label: "Metrics / Outcome / Results", name: "metricsOrOutcome", widget: "string", required: false }
+
+  # ==========================================
+  # 4. EXPERIENCE SECTION
+  # ==========================================
+  - name: "experience_section"
+    label: "💼 Work & Internships"
+    files:
+      - label: "Experience Items"
+        name: "experience_data"
+        file: "src/data/experience.json"
+        fields:
+          - label: "Work & Internship Experience"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Item ID", name: "id", widget: "string" }
+              - { label: "Type", name: "type", widget: "select", options: ["Internship", "Full-time", "Part-time", "Contract", "Research"] }
+              - { label: "Role Title", name: "role", widget: "string" }
+              - { label: "Company / Organization", name: "organization", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Period (e.g. 2025 – Present)", name: "period", widget: "string" }
+              - { label: "Key Responsibilities", name: "responsibilities", widget: "list" }
+              - { label: "Technologies Used", name: "technologies", widget: "list", required: false }
+
+  # ==========================================
+  # 5. EDUCATION SECTION
+  # ==========================================
+  - name: "education_section"
+    label: "🎓 Education & Academics"
+    files:
+      - label: "Education Details"
+        name: "education_data"
+        file: "src/data/education.json"
+        fields:
+          - { label: "Primary University / Institution", name: "institution", widget: "string" }
+          - { label: "Degree Name", name: "degree", widget: "string" }
+          - { label: "Graduation Status / Year", name: "graduationYear", widget: "string" }
+          - { label: "GPA / Performance", name: "gpa", widget: "string" }
+          - { label: "Relevant Coursework Modules", name: "relevantCoursework", widget: "list" }
+          - label: "Final Year Capstone Project"
+            name: "finalYearProject"
+            widget: "object"
+            required: false
+            fields:
+              - { label: "Project Title", name: "title", widget: "string" }
+              - { label: "Project Summary", name: "summary", widget: "text" }
+              - { label: "Technologies", name: "technologies", widget: "list" }
+          - label: "Additional Diplomas / Education"
+            name: "additionalEducation"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Institution", name: "institution", widget: "string" }
+              - { label: "Diploma / Degree", name: "degree", widget: "string" }
+              - { label: "Period", name: "period", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
+  # ==========================================
+  # 6. CERTIFICATES SECTION
+  # ==========================================
+  - name: "certificates_section"
+    label: "📜 Certificates & Licenses"
+    files:
+      - label: "Certificates List"
+        name: "certifications_data"
+        file: "src/data/certifications.json"
+        fields:
+          - label: "Certifications"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Certificate ID", name: "id", widget: "string" }
+              - { label: "Certificate Title", name: "title", widget: "string" }
+              - { label: "Issuing Organization", name: "issuer", widget: "string" }
+              - { label: "Issue Date (e.g. May 2026)", name: "date", widget: "string" }
+              - { label: "Credential ID", name: "credentialId", widget: "string", required: false }
+              - { label: "Verification / Certificate Link", name: "credentialUrl", widget: "string", required: false }
+              - { label: "Skills Covered", name: "skills", widget: "list" }
+
+  # ==========================================
+  # 7. ACHIEVEMENTS SECTION
+  # ==========================================
+  - name: "achievements_section"
+    label: "🏆 Achievements & Leadership"
+    files:
+      - label: "Achievements List"
+        name: "achievements_data"
+        file: "src/data/achievements.json"
+        fields:
+          - label: "Achievements & Leadership Roles"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Achievement ID", name: "id", widget: "string" }
+              - { label: "Title / Honor", name: "title", widget: "string" }
+              - { label: "Category", name: "category", widget: "string" }
+              - { label: "Organization / Event", name: "organization", widget: "string" }
+              - { label: "Year / Timeframe", name: "year", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
+  # ==========================================
+  # 8. RESUME & SPECIALIZED CVS
+  # ==========================================
+  - name: "resume_section"
+    label: "📄 Resume & CV Downloads"
+    files:
+      - label: "Resume Settings & Files"
+        name: "resume_data"
+        file: "src/data/personalDetails.json"
+        fields:
+          - { label: "Main Master CV URL / Path", name: "resumeUrl", widget: "file" }
+          - { label: "Last Updated Date Label (e.g. August 2026)", name: "resumeLastUpdated", widget: "string" }
+          - label: "Specialized Role-Tailored CVs"
+            name: "specializedResumes"
+            widget: "list"
+            fields:
+              - { label: "CV Track Label (e.g. AI & ML CV)", name: "label", widget: "string" }
+              - { label: "Short Description", name: "description", widget: "string" }
+              - { label: "PDF File / URL", name: "url", widget: "file" }
+              - { label: "Track Icon Type", name: "iconType", widget: "select", options: ["general", "software", "aiml", "cybersecurity", "hardware"] }
+
+  # ==========================================
+  # 9. CONTACT & SOCIAL CHANNELS
+  # ==========================================
+  - name: "contact_section"
+    label: "📬 Contact & Social Profiles"
+    files:
+      - label: "Socials & Direct Contacts"
+        name: "contact_data"
+        file: "src/data/personalDetails.json"
+        fields:
+          - label: "Social Media & Profiles"
+            name: "socials"
+            widget: "object"
+            fields:
+              - { label: "Contact Email", name: "email", widget: "string" }
+              - { label: "GitHub Profile URL", name: "github", widget: "string" }
+              - { label: "LinkedIn Profile URL", name: "linkedin", widget: "string" }
+              - { label: "LeetCode Profile URL", name: "leetcode", widget: "string", required: false }
+              - { label: "Codeforces Profile URL", name: "codeforces", widget: "string", required: false }
